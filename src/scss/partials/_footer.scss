@@ -1,3 +1,77 @@
-.footer {
+.map{
+  position: relative;
 
+  .map-inner{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    left: 0;
+  }
+
+  .address{
+    max-width: 370px;
+    box-sizing: border-box;
+    background: #fff;
+    padding: 50px;
+    box-shadow: 0 3px 35px 5px rgba(0,0,0, .15);
+    font-size: 16px;
+
+    strong{
+      font-size: 21px;
+      font-weight: 700;
+      margin: 0 0 20px;
+      display: block;
+    }
+  }
+
+  #gmap{
+    height: 460px;
+  }
+}
+
+.page-footer {
+  background: #101010;
+  padding: 25px 0;
+  color: #fff;
+  position: relative;
+}
+
+.bottom-line{
+  background: #313131;
+  padding: 10px 0;
+
+  .share{
+    float: left;
+
+    a{
+      display: inline-block;
+      vertical-align: middle;
+      margin-right: 10px;
+    }
+
+    .globe{
+      background: $globe-icon 50% 50% no-repeat;
+      width: 24px;
+      height: 24px;
+    }
+    .twitter{
+      background: $twitter-icon 50% 50% no-repeat;
+      width: 24px;
+      height: 24px;
+    }
+    .youtube{
+      background: $youtube-icon 50% 50% no-repeat;
+      width: 24px;
+      height: 24px;
+    }
+  }
+
+  .copyright{
+    float: right;
+    font-size: 15px;
+    font-style: italic;
+    color: #fff;
+    font-weight: 200;
+  }
 }

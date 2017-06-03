@@ -1,0 +1,161 @@
+.page-header{
+  height: 100%;
+  min-height: 400px;
+  background: url(../img/header-bg.png) 50% 50% no-repeat;
+  color: #fff;
+
+  &:after{
+    content: '';
+    background: $scroll-icon 50% 50% no-repeat;
+    position: absolute;
+    width: 28px;
+    height: 40px;
+    bottom: 60px;
+    left: 50%;
+    margin: 0 0 0 -10px;
+  }
+
+  .language{
+    position: absolute;
+    top: 100%;
+    right: 0;
+    margin: 30px 0 0;
+
+    a{
+      line-height: 1;
+      display: inline-block;
+      vertical-align: middle;
+      font-weight: 700;
+      font-size: 16px;
+      color: #fff;
+      border: 1px solid #fff;
+      border-radius: 2px;
+      padding: 0 11px;
+      height: 36px;
+      line-height: 36px;
+      margin-left: 10px;
+      text-transform: uppercase;
+      text-decoration: underline;
+
+      &.active{
+        text-decoration: none;
+      }
+
+      &:hover{
+        text-decoration: none;
+      }
+    }
+  }
+
+  .wrap{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    padding: 195px 0;
+    box-sizing: border-box;
+  }
+
+  .header-inner{
+    padding: 25px 0;
+    margin: 0 0 80px;
+    border-bottom: 1px solid rgba(255,255,255, .15);
+    display: inline-block;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+
+}
+
+.menu-trigger{
+  background: $menu-icon 50% 50% no-repeat;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -20px 0 0 -20px;
+}
+
+.logo-wrap{
+  float: left;
+}
+
+.phone-block{
+  float: right;
+  font-size: 25px;
+  font-weight: 700;
+  position: relative;
+
+  &:before{
+    content: '';
+    position: absolute;
+    top: 6px;
+    right: 100%;
+    width: 25px;
+    height: 25px;
+    background: $phone-icon 50% 50% no-repeat;
+    margin-right: 15px;
+  }
+
+  .time{
+    font-size: 15px;
+    font-weight: 200;
+    font-style: italic;
+  }
+}
+
+.logo{
+  background: $logo 0 0 no-repeat;
+  width: 190px;
+  height: 35px;
+  display: block;
+  margin: 0 0 10px;
+}
+
+.slogan{
+  font-size: 15px;
+  font-style: italic;
+  font-weight: 200;
+}
+
+.main-slider{
+
+  .slide{
+
+    .image{
+      width: 47%;
+      float: right;
+
+      img{
+        max-width: 110%;
+      }
+    }
+
+    .text{
+      font-size: 18px;
+      color: #fff;
+      width: 43%;
+      float: left;
+
+      h2{
+        font-size: 60px;
+        line-height: 1.1;
+        margin: 0 0 30px;
+
+        i{
+          color: #f6402c;
+          font-family: $playfair;
+        }
+      }
+
+      p{
+        margin: 0 0 40px;
+      }
+    }
+  }
+}
