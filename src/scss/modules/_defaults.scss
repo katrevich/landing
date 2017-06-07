@@ -16,11 +16,15 @@ body,html{
 	height: 100%;
 }
 
+a{
+  transition: color .2s ease;
+}
+
 .wrap{
   max-width: 1180px;
   margin: 0 auto;
   padding: 0 15px;
-
+  box-sizing: border-box;
   @extend .clearfix;
 }
 
@@ -36,6 +40,11 @@ body,html{
     font-family: $playfair;
     color: #f6402c;
   }
+
+  @media(max-width:700px){
+    font-size: 18px;
+    margin: 0 0 25px;
+  }
 }
 
 .fancy-button{
@@ -50,6 +59,7 @@ body,html{
   border-radius: 30px;
   line-height: 1;
   box-shadow: 0 3px 0 0 #de3928, 0 0 30px 10px rgba(246,64,44, .2);
+  border: 0;
 
   &:before{
     content: '';
@@ -72,4 +82,121 @@ body,html{
     width: 32px;
     height: 20px;
   }
+
+  @media(max-width:540px){
+    font-size: 15px;
+    padding: 10px 25px 10px 60px;
+
+    &:before{
+      width: 45px;
+    }
+
+    &:after{
+      left: 13px;
+      width: 22px;
+      height: 14px;
+      background-size: contain;
+      margin-top: -7px;
+    }
+  }
+}
+
+.slick-prev{
+  background: $slider-prev 50% 50% no-repeat;
+  width: 54px;
+  height: 54px;
+  border: 0;
+  text-indent: -9999px;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  right: 100%;
+  transform: translateY(-50%);
+  margin-right: 30px;
+}
+.slick-next{
+  background: $slider-next 50% 50% no-repeat;
+  width: 54px;
+  height: 54px;
+  border: 0;
+  text-indent: -9999px;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  transform: translateY(-50%);
+  margin-left: 30px;
+}
+
+.tingle-modal-box{
+  width: auto;
+  padding: 0;
+  max-width: 570px;
+  border-radius: 0 !important;
+}
+
+@mixin placeholder {
+    &::-webkit-input-placeholder {
+        @content;
+    }
+
+    &:-moz-placeholder { /* Firefox 18- */
+        @content;
+    }
+
+    &::-moz-placeholder {  /* Firefox 19+ */
+        @content;
+    }
+
+    &:-ms-input-placeholder {
+        @content;
+    }
+}
+
+.fb-form{
+  width: 100%;
+  max-width: 570px;
+  text-align: center;
+  padding: 45px;
+  box-sizing: border-box;
+
+  header{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1;
+    margin: 0 0 30px;
+
+    i{
+      color: #f6402c;
+      font-size: 25px;
+      display: block;
+      font-family: $playfair;
+    }
+  }
+
+  input[type="text"],
+  input[type="email"]{
+    font-size: 19px;
+    color: #000;
+    padding: 13px 25px;
+    width: 100%;
+    margin: 0 0 20px;
+    border: 1px solid #d8d8d8;
+    border-radius: 3px;
+    max-width: 270px;
+    display: inline-block;
+    font-weight: 700;
+
+    @include placeholder {
+      color: #000;
+    }
+  }
+
+  .fancy-button{
+    margin-top: 40px;
+  }
+}
+
+#modal{
+  display: none;
 }

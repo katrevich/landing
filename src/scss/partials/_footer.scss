@@ -35,6 +35,18 @@
   padding: 25px 0;
   color: #fff;
   position: relative;
+
+  @media(max-width:700px){
+
+    .phone-block{
+      display: none;
+    }
+
+    .menu-trigger{
+      right: 15px;
+      left: auto;
+    }
+  }
 }
 
 .bottom-line{
@@ -48,22 +60,19 @@
       display: inline-block;
       vertical-align: middle;
       margin-right: 10px;
+      width: 24px;
+      height: 24px;
+      background-size: contain !important;
     }
 
     .globe{
       background: $globe-icon 50% 50% no-repeat;
-      width: 24px;
-      height: 24px;
     }
     .twitter{
       background: $twitter-icon 50% 50% no-repeat;
-      width: 24px;
-      height: 24px;
     }
     .youtube{
       background: $youtube-icon 50% 50% no-repeat;
-      width: 24px;
-      height: 24px;
     }
   }
 
@@ -73,5 +82,21 @@
     font-style: italic;
     color: #fff;
     font-weight: 200;
+  }
+
+  @media(max-width:540px){
+
+    .share{
+
+      a{
+        width: 12px;
+        height: 12px;
+      }
+    }
+
+    .copyright{
+      font-size: 9px;
+      padding-top: 3px;
+    }
   }
 }
