@@ -1,3 +1,3258 @@
-language: node_js
-node_js:
-  - "0.10"
+[
+    {
+        "term": "minute",
+        "definition": "minuut",
+        "context": "\"time\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "minutes",
+        "definition": "minuten",
+        "context": "\"time\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "second",
+        "definition": "seconde",
+        "context": "\"time\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "seconds",
+        "definition": "seconden",
+        "context": "\"time\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "start_btn",
+        "definition": "Start",
+        "context": "\"Landing\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "next_btn",
+        "definition": "Next",
+        "context": "\"Landing\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "back_btn",
+        "definition": "Terug",
+        "context": "\"Landing\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "register_btn",
+        "definition": "Registreren",
+        "context": "\"Landing\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "info",
+        "definition": "Info",
+        "context": "\"Landing\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "continue_btn",
+        "definition": "Verder",
+        "context": "\"Landing\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "apply_btn",
+        "definition": "Solliciteer",
+        "context": "\"Landing\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "logout_btn",
+        "definition": "Log uit",
+        "context": "\"Landing\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "login_btn",
+        "definition": null,
+        "context": "\"Landing\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "back_btn",
+        "definition": "Terug",
+        "context": "\"Login\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "start_btn",
+        "definition": "Start",
+        "context": "\"Login\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "sign_in",
+        "definition": "Inloggen",
+        "context": "\"Login\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "error_message_general",
+        "definition": "Dit is verplicht.",
+        "context": "\"Login\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "error_message_email_is_required",
+        "definition": "Email is verplicht",
+        "context": "\"Login\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "error_message_try_different",
+        "definition": "Probeer een ander email adres.",
+        "context": "\"Login\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "error_message_email_is_invalid",
+        "definition": "Email is ongeldig.",
+        "context": "\"Login\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "error_message",
+        "definition": "Email of wachtwoord is ongeldig",
+        "context": "\"Login\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "error_message_password_policy",
+        "definition": "Wachtwoord vereist min 8 tekens, hoofdletters en kleine letters.",
+        "context": "\"Login\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "password_title",
+        "definition": "Wachtwoord",
+        "context": "\"Login\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "forgot_password_title",
+        "definition": "Wachtwoord vergeten",
+        "context": "\"Login\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "forget_password_success",
+        "definition": "Email is verzonden. Open de email voor verdere instructies.",
+        "context": "\"Login\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "forget_passowrd_outofdata",
+        "definition": "Het verzoek is verlopen. Probeer het later opnieuw.",
+        "context": "\"Login\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "forget_passowrd_error",
+        "definition": "Er is iets fout gegaan, probeer het later opnieuw. ",
+        "context": "\"Login\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "error_message_password_policy_with_regex",
+        "definition": "Wachtwoord vereist min \n tekens, hoofdletters en kleine letters.",
+        "context": "\"Login\".list",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "error_message_mandatory_url_parameters",
+        "definition": "You started the application with an invalid link. Please contact Support",
+        "context": "\"Login\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "welcome_back_title",
+        "definition": "Welkom Terug",
+        "context": "\"Login\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "welcome_back_btn",
+        "definition": "Doorgaan",
+        "context": "\"Login\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "register",
+        "definition": "Registreren",
+        "context": "\"Login\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "terms_and_condition",
+        "definition": "Bij dezen geef ik {accountName} toestemming mijn persoonsgegevens, waaronder de resultaten van de diverse testmodules, te verwerken binnen de context van mijn sollicitatie bij {accountName} via het Harver Platform. Zie ons privacybeleid voor meer informatie.",
+        "context": "\"Login\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "password_dont_match",
+        "definition": "De wachtwoorden zijn niet identiek. Probeer opnieuw.",
+        "context": "\"Login\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "confirm_new_password",
+        "definition": "Bevestig nieuw wachtwoord",
+        "context": "\"Login\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "require_password",
+        "definition": "Wachtwoord is verplicht.",
+        "context": "\"Login\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "reset_password",
+        "definition": "Wachtwoord opnieuw instellen",
+        "context": "\"Login\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "reset_password_open_email",
+        "definition": "Email is verzonden. Open de email voor verdere instructies.",
+        "context": "\"Login\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "redirect",
+        "definition": "Doorverwijzen in. ",
+        "context": "\"Login\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "seconds_timer",
+        "definition": "seconden ...",
+        "context": "\"Login\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "new_password",
+        "definition": "Nieuw wachtwoord",
+        "context": "\"Login\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "email",
+        "definition": "Email",
+        "context": "\"Login\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "magic_email",
+        "definition": "Typ je email",
+        "context": "\"Login\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "privacyPolicy",
+        "definition": "Privacybeleid",
+        "context": "\"Login\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "seePrivacyPolicy",
+        "definition": "Zie privacybeleid",
+        "context": "\"Login\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "locked",
+        "definition": "Je account is geblokkeerd voor 10 minuten",
+        "context": "\"Login\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "access_to_vacancy_forbidden",
+        "definition": "Helaas heeft u geen toegang meer tot deze vacature.",
+        "context": "\"Login\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "optional",
+        "definition": "optioneel",
+        "context": "\"Login\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "title",
+        "definition": "Check je email om opnieuw in te loggen!",
+        "context": "\"Login\".\"magic_link_message\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "content",
+        "definition": "We hebben een email naar [$candidate_email] gestuurd met een magic link om in te loggen.",
+        "context": "\"Login\".\"magic_link_message\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "desktop_welcome_again",
+        "definition": "<p> Welkom terug!<\/p><p>Klik op 'Start' om verder te gaan.<\/p>",
+        "context": "\"Login\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "record_btn",
+        "definition": "Opnemen",
+        "context": "\"Video Pitch\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "skip_btn",
+        "definition": "Overslaan",
+        "context": "\"Video Pitch\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "link_video_btn",
+        "definition": "Link naar video",
+        "context": "\"Video Pitch\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "dont_submit",
+        "definition": "Niet versturen, ik heb me bedacht ",
+        "context": "\"Video Pitch\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "thank_you",
+        "definition": "Bedankt voor het indienen van je video. ",
+        "context": "\"Video Pitch\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "video_pitch_submitted",
+        "definition": "VideoPitch verstuurd",
+        "context": "\"Video Pitch\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "your_video_pitch",
+        "definition": "Jouw VideoPitch",
+        "context": "\"Video Pitch\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "already_upload_video",
+        "definition": "Als je al een VideoPitch hebt opgenomen en online hebt opgeslagen, plaats dan hier de URL:",
+        "context": "\"Video Pitch\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "example",
+        "definition": "Bijvoorbeeld:",
+        "context": "\"Video Pitch\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "submit_btn",
+        "definition": "Verstuur",
+        "context": "\"Video Pitch\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "re_record_btn",
+        "definition": "Opnemen",
+        "context": "\"Video Pitch\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "submit_if_happy",
+        "definition": "Verzend als je tevreden bent met het resultaat.",
+        "context": "\"Video Pitch\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "weblink_to_videoPitch",
+        "definition": "Link naar VideoPitch.",
+        "context": "\"Video Pitch\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "weblink_required",
+        "definition": "Link is verplicht. ",
+        "context": "\"Video Pitch\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "url_invalid",
+        "definition": "URL is ongeldig.",
+        "context": "\"Video Pitch\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "next_btn",
+        "definition": "Next",
+        "context": "\"Video Pitch\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "cancel_btn",
+        "definition": "Annuleren",
+        "context": "\"Video Pitch\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "upload_video_btn",
+        "definition": "Video uploaden.",
+        "context": "\"Video Pitch\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "recorded",
+        "definition": "Opnieuw opnemen",
+        "context": "\"Video Pitch\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "stop_btn",
+        "definition": "Stoppen",
+        "context": "\"Video Pitch\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "close_btn",
+        "definition": "Sluit",
+        "context": "\"Candidate Info Additional\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "next_btn",
+        "definition": "Next",
+        "context": "\"Candidate Info Additional\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "back_btn",
+        "definition": "Terug",
+        "context": "\"Candidate Info Additional\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "choose_option",
+        "definition": "Kies...",
+        "context": "\"Candidate Info Additional\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "please_complete_this_field",
+        "definition": "Vul dit veld in.",
+        "context": "\"Candidate Info Additional\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "yes_btn",
+        "definition": "Ja",
+        "context": "\"Candidate Info Additional\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "no_btn",
+        "definition": "Nee",
+        "context": "\"Candidate Info Additional\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "close_btn",
+        "definition": "Sluit",
+        "context": "\"Location Questions\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "next_btn",
+        "definition": "Next",
+        "context": "\"Location Questions\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "back_btn",
+        "definition": "Terug",
+        "context": "\"Location Questions\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "choose_option",
+        "definition": "Kies...",
+        "context": "\"Location Questions\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "please_complete_this_field",
+        "definition": "Vergeet deze vraag niet te beantwoorden!",
+        "context": "\"Location Questions\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "yes_btn",
+        "definition": "Ja",
+        "context": "\"Location Questions\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "no_btn",
+        "definition": "Nee",
+        "context": "\"Location Questions\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "text",
+        "definition": null,
+        "context": "\"Location Questions\".\"input_placeholder_prefix\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "number",
+        "definition": null,
+        "context": "\"Location Questions\".\"input_placeholder_prefix\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "dropdown",
+        "definition": null,
+        "context": "\"Location Questions\".\"input_placeholder_prefix\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "required_error_msg",
+        "definition": null,
+        "context": "\"Location Questions\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "close_btn",
+        "definition": "Sluit",
+        "context": "\"Job Functions\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "next_btn",
+        "definition": "Next",
+        "context": "\"Job Functions\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "back_btn",
+        "definition": "Terug",
+        "context": "\"Job Functions\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "choose_option",
+        "definition": null,
+        "context": "\"Job Functions\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "required_error_msg",
+        "definition": "Is benodigd",
+        "context": "\"Job Functions\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "jobs_select_msg",
+        "definition": "SELECTEER ALLES",
+        "context": "\"Job Functions\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "all_selected",
+        "definition": "ALLES GESELECTEERD",
+        "context": "\"Job Functions\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "job_dialog_desc",
+        "definition": "BESCHRIJVING:",
+        "context": "\"Job Functions\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "select_this_job_function",
+        "definition": "SELECTEER",
+        "context": "\"Job Functions\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "deselect_this_job_functions",
+        "definition": "DESELECTEER",
+        "context": "\"Job Functions\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "start_btn",
+        "definition": "Start",
+        "context": "\"Cultural Fit\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "next_btn",
+        "definition": "Next",
+        "context": "\"Cultural Fit\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "back_btn",
+        "definition": "Terug",
+        "context": "\"Cultural Fit\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "previous_btn",
+        "definition": "Vorige",
+        "context": "\"Cultural Fit\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "submit_btn",
+        "definition": "Verstuur",
+        "context": "\"Cultural Fit\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "create_with_Sketch",
+        "definition": "Created with Sketch.",
+        "context": "\"Cultural Fit\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "module_description",
+        "definition": "Verdeel voor elke dimensie 10 sterren over de vier verschillende uitspraken, afhankelijk van hoe belangrijk je het vindt binnen een organisatie. ",
+        "context": "\"Cultural Fit\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "strongly_disagree",
+        "definition": "Heel erg mee oneens",
+        "context": "\"Cultural Fit\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "strongly_agree",
+        "definition": "Heel erg mee eens",
+        "context": "\"Cultural Fit\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "end_text",
+        "definition": "Dat was het! Klik op 'Verstuur' om de antwoorden te verzenden. Klik op 'Terug' om terug te gaan.",
+        "context": "\"Cultural Fit\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "stars_text",
+        "definition": "Nog {number} sterren te verdelen",
+        "context": "\"Cultural Fit\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "star_text",
+        "definition": "Nog 1 ster te verdelen",
+        "context": "\"Cultural Fit\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "zero_star",
+        "definition": "Geen sterren meer over",
+        "context": "\"Cultural Fit\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "browse_btn",
+        "definition": "Bladeren",
+        "context": "\"Candidate Info Document\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "choose_file",
+        "definition": "Kies bestand...",
+        "context": "\"Candidate Info Document\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "complete_field_needed",
+        "definition": "Vul dit veld in.",
+        "context": "\"Candidate Info Document\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "next_btn",
+        "definition": "Next",
+        "context": "\"Candidate Info Document\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "results_btn",
+        "definition": "Bekijk resultaten",
+        "context": "\"End Page\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "results_title",
+        "definition": "Mijn Resultaten",
+        "context": "\"End Page\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "extra_btn",
+        "definition": null,
+        "context": "\"End Page\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "competences_btn",
+        "definition": "Competenties",
+        "context": "\"End Page\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "personality_btn",
+        "definition": "Persoonlijkheid",
+        "context": "\"End Page\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "strongShowStopperTitle",
+        "definition": "Helaas,",
+        "context": "\"End Page\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "strongShowStopperMessage",
+        "definition": "Je voldoet niet aan de eisen voor deze vacature. Daarom stopt jouw sollicitatie hier. We wensen je veel succes met toekomstige sollicitaties.\nDe antwoorden op de volgende vragen voldeden niet aan de eisen.",
+        "context": "\"End Page\".list",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "cancelApplication_btn",
+        "definition": "Annuleer sollicitatie",
+        "context": "\"End Page\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "submitApplication_btn",
+        "definition": "Verzend",
+        "context": "\"End Page\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "share_btn",
+        "definition": "DEEL DEZE VACATURE",
+        "context": "\"Retail End Page\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "copy_link_btn",
+        "definition": "DEEL DEZE VACATURE",
+        "context": "\"Retail End Page\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "view_summary",
+        "definition": "Bekijk mijn gegevens",
+        "context": "\"Retail End Page\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "clipboard_copied_msg",
+        "definition": "Gekopieerd naar het klembord",
+        "context": "\"Retail End Page\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "contact_within",
+        "definition": "We nemen binnen ${hoursCountDown} uur contact met je op.",
+        "context": "\"Retail End Page\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "cancelApplication_btn",
+        "definition": "Annuleer sollicitatie",
+        "context": "\"Retail End Page\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "submitApplication_btn",
+        "definition": "Verzend",
+        "context": "\"Retail End Page\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "start_btn",
+        "definition": "Start",
+        "context": "\"SJT\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "next_btn",
+        "definition": "Next",
+        "context": "\"SJT\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "back_btn",
+        "definition": "Terug",
+        "context": "\"SJT\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "replay_btn",
+        "definition": " Herhaal",
+        "context": "\"SJT\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "information",
+        "definition": "Informatie",
+        "context": "\"SJT\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "browser_not_support",
+        "definition": "Your browser does not support the video tag.",
+        "context": "\"SJT\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "select_suitable_answer",
+        "definition": "Geef het meest passende antwoord",
+        "context": "\"SJT\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "least_suitable_answer",
+        "definition": "en het minst passende antwoord",
+        "context": "\"SJT\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "start_btn",
+        "definition": "Start",
+        "context": "\"Typing\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "next_btn",
+        "definition": "Next",
+        "context": "\"Typing\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "ok_btn",
+        "definition": "ok",
+        "context": "\"Typing\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "time_out_title",
+        "definition": "Sorry, tijd is om.",
+        "context": "\"Typing\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "time_out_text",
+        "definition": "De maximale tijd is verstreken. Klik op 'volgende' om verder te gaan met de volgende stap.",
+        "context": "\"Typing\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "start_btn",
+        "definition": "Start",
+        "context": "\"Language Test\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "next_btn",
+        "definition": "Next",
+        "context": "\"Language Test\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "start_btn",
+        "definition": "Start",
+        "context": "\"Brain Game\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "ok_btn",
+        "definition": "Ok",
+        "context": "\"Brain Game\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "end_btn",
+        "definition": "einde",
+        "context": "\"Brain Game\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "next_btn",
+        "definition": "Next",
+        "context": "\"Brain Game\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "yes_btn",
+        "definition": "Ja",
+        "context": "\"Brain Game\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "no_btn",
+        "definition": "Nee",
+        "context": "\"Brain Game\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "title",
+        "definition": null,
+        "context": "\"Brain Game\".\"correctAnswer\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "text",
+        "definition": null,
+        "context": "\"Brain Game\".\"correctAnswer\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "title",
+        "definition": null,
+        "context": "\"Brain Game\".\"wrongAnswer\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "text",
+        "definition": null,
+        "context": "\"Brain Game\".\"wrongAnswer\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "title",
+        "definition": null,
+        "context": "\"Brain Game\".\"timeOut\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "text",
+        "definition": null,
+        "context": "\"Brain Game\".\"timeOut\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "next_btn",
+        "definition": "Next",
+        "context": "\"System Diagnostics\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "download_app_btn",
+        "definition": "Download System Checker",
+        "context": "\"System Diagnostics\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "copy_code_btn_txt",
+        "definition": "Copy Code",
+        "context": "\"System Diagnostics\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "copied_code_btn_txt",
+        "definition": "Copied",
+        "context": "\"System Diagnostics\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "continue_check_later_btn",
+        "definition": "Continue later",
+        "context": "\"System Diagnostics\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "skip_check_btn",
+        "definition": "Skip the system check",
+        "context": "\"System Diagnostics\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "skip_check_title",
+        "definition": "Skip this module",
+        "context": "\"System Diagnostics\".\"skip_check_popup_content\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "skip_check_description",
+        "definition": "Are you sure you want to skip the System Check?",
+        "context": "\"System Diagnostics\".\"skip_check_popup_content\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "skip_check_skip_btn",
+        "definition": "Yes, skip this module",
+        "context": "\"System Diagnostics\".\"skip_check_popup_content\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "skip_check_cancel_btn",
+        "definition": "Cancel",
+        "context": "\"System Diagnostics\".\"skip_check_popup_content\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "see_more_txt",
+        "definition": "See the list of all computer components and requirements that will be checked",
+        "context": "\"System Diagnostics\".\"start_page\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "see_less_txt",
+        "definition": "Close the list",
+        "context": "\"System Diagnostics\".\"start_page\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "table_header_component",
+        "definition": "Component",
+        "context": "\"System Diagnostics\".\"start_page\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "table_header_requirements",
+        "definition": "Requirements",
+        "context": "\"System Diagnostics\".\"start_page\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "incompatible_warning_text",
+        "definition": "Your operating system is not compatible with this module!",
+        "context": "\"System Diagnostics\".\"start_page\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "incompatible_msg",
+        "definition": "Do you have a \"work from home\" computer with Windows 7, 8 or 10? You can also decide to skip this step entirely.",
+        "context": "\"System Diagnostics\".\"start_page\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "confirmation_message",
+        "definition": "Are you on the home computer that you want to use as a \"work from home\" computer right now?",
+        "context": "\"System Diagnostics\".\"start_page\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "yes_btn",
+        "definition": "Yes, I am",
+        "context": "\"System Diagnostics\".\"start_page\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "continue_later_btn_custom_text",
+        "definition": "No, I am not. Let's continue later",
+        "context": "\"System Diagnostics\".\"start_page\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "skip_btn_custom",
+        "definition": "No, I am not. Let's skip the check",
+        "context": "\"System Diagnostics\".\"start_page\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "continue_later_btn_custom_text_incompatible",
+        "definition": "Yes I do! I will continue with the check later on",
+        "context": "\"System Diagnostics\".\"start_page\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "skip_btn_custom_incompatible",
+        "definition": "No I don't. I will have to skip the test",
+        "context": "\"System Diagnostics\".\"start_page\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "continue_later_dialogue_title",
+        "definition": "Continue later",
+        "context": "\"System Diagnostics\".\"start_page\".\"popup_content\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "continue_later_dialogue_description_1",
+        "definition": "You are about to log out of this assessment. Don't worry! You will be able to continue at a later time.",
+        "context": "\"System Diagnostics\".\"start_page\".\"popup_content\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "continue_later_dialogue_description_2",
+        "definition": "Once you are ready for the check with your \"work from home\" computer, you can log back in using the registration e-mail we sent you earlier.",
+        "context": "\"System Diagnostics\".\"start_page\".\"popup_content\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "continue_later_dialogue_logout_btn",
+        "definition": "Ok, log out",
+        "context": "\"System Diagnostics\".\"start_page\".\"popup_content\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "continue_later_dialogue_cancel_btn",
+        "definition": "Cancel",
+        "context": "\"System Diagnostics\".\"start_page\".\"popup_content\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "title",
+        "definition": "System Check - Instructions & Download",
+        "context": "\"System Diagnostics\".\"instruction_page\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "subtitle_1",
+        "definition": "5 easy steps to see if your computer meets the vacancy criteria",
+        "context": "\"System Diagnostics\".\"instruction_page\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "subtitle_2",
+        "definition": "Use this code to login to the System Checker application",
+        "context": "\"System Diagnostics\".\"instruction_page\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "instructions_list",
+        "definition": "Download the System Checker\nOpen the System Checker\nEnter the code generated for you\nRun the test\nClose the System Checker and continue with the assessment",
+        "context": "\"System Diagnostics\".\"instruction_page\".list",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "paragraph_1",
+        "definition": "After you open & run the System Checker, it will ask for a code. The code below is your personal code. Go ahead and press the copy code button or write the code down before continuing.",
+        "context": "\"System Diagnostics\".\"instruction_page\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "paragraph_2",
+        "definition": "Download the System Checker application below. If you want to continue the system check from another computer or at a later time you can decide to continue later. You can also choose to skip the system check entirely.",
+        "context": "\"System Diagnostics\".\"instruction_page\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "title",
+        "definition": "System Check - Run System Checker",
+        "context": "\"System Diagnostics\".\"download_page\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "subtitle_1",
+        "definition": "Were you able to run the System Checker application?",
+        "context": "\"System Diagnostics\".\"download_page\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "subtitle_2",
+        "definition": "Friendly reminder: use this code to login to the System Checker application",
+        "context": "\"System Diagnostics\".\"download_page\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "subtitle_3",
+        "definition": "Having trouble with downloading or running the System Checker?",
+        "context": "\"System Diagnostics\".\"download_page\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "subtitle_4",
+        "definition": "Did System Checker complete successfully?",
+        "context": "\"System Diagnostics\".\"download_page\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "paragraph_1",
+        "definition": "If you haven't already, go ahead and open & run the System Checker. Once the System Checker has collected all the information from your computer, you can close it and return to this page.",
+        "context": "\"System Diagnostics\".\"download_page\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "paragraph_2",
+        "definition": "After you open & run the System Checker, it will ask for a code. The code below is your personal code. Go ahead and press the copy code button or write the code down before continuing.",
+        "context": "\"System Diagnostics\".\"download_page\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "paragraph_3",
+        "definition": "If you are having trouble to download or run the System Checker, please click on the link below to try again. For more information about where you can find the application after downloading it, click the link below.",
+        "context": "\"System Diagnostics\".\"download_page\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "paragraph_4",
+        "definition": "The System Checker completed successfully. You can now click next.",
+        "context": "\"System Diagnostics\".\"download_page\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "download_app_again_btn",
+        "definition": "Download System Checker again",
+        "context": "\"System Diagnostics\".\"download_page\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "where_is_my_download_btn",
+        "definition": "Where can I find the download?",
+        "context": "\"System Diagnostics\".\"download_page\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "check_diagnostics_data_btn",
+        "definition": "Check if System Checker ran successfully",
+        "context": "\"System Diagnostics\".\"download_page\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "close_btn",
+        "definition": "Sluit",
+        "context": "\"System Diagnostics\".\"download_page\".\"popup_content\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "check_for_successful_run",
+        "definition": "Check if System Checker run successfully",
+        "context": "\"System Diagnostics\".\"download_page\".\"popup_content\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "system_check_dialogue_title",
+        "definition": "System Check - Did it run successfully?",
+        "context": "\"System Diagnostics\".\"download_page\".\"popup_content\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "system_check_dialogue_description",
+        "definition": "Whoops! We did not receive the information from the system checker application. Can you Run it again?",
+        "context": "\"System Diagnostics\".\"download_page\".\"popup_content\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "system_check_dialogue_restart_btn",
+        "definition": "Go back to run System Checker again",
+        "context": "\"System Diagnostics\".\"download_page\".\"popup_content\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "system_check_dialogue_continue_link",
+        "definition": "Continue later",
+        "context": "\"System Diagnostics\".\"download_page\".\"popup_content\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "system_check_dialogue_skip_link",
+        "definition": "Skip the System Check",
+        "context": "\"System Diagnostics\".\"download_page\".\"popup_content\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "title",
+        "definition": "System Check - Complete",
+        "context": "\"System Diagnostics\".\"end_page\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "subtitle",
+        "definition": "System Checker was able to gather your computer's information successfully!",
+        "context": "\"System Diagnostics\".\"end_page\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "paragraph",
+        "definition": "Press next to continue",
+        "context": "\"System Diagnostics\".\"end_page\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "start_btn",
+        "definition": "Start",
+        "context": "\"Candidate Info Personal\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "next_btn",
+        "definition": "Next",
+        "context": "\"Candidate Info Personal\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "please_complete_this_field",
+        "definition": "Vul dit veld in.",
+        "context": "\"Candidate Info Personal\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "choose_option",
+        "definition": "Kies...",
+        "context": "\"Candidate Info Personal\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "start_btn",
+        "definition": "Start",
+        "context": "\"Vacancy Questions\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "next_btn",
+        "definition": "Next",
+        "context": "\"Vacancy Questions\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "please_complete_this_field",
+        "definition": "Vul dit veld in.",
+        "context": "\"Vacancy Questions\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "choose_option",
+        "definition": "Kies...",
+        "context": "\"Vacancy Questions\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "day",
+        "definition": "Dag",
+        "context": "\"Vacancy Questions\".\"date-input-labels\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "month",
+        "definition": "Maand",
+        "context": "\"Vacancy Questions\".\"date-input-labels\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "year",
+        "definition": "Jaar",
+        "context": "\"Vacancy Questions\".\"date-input-labels\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "text",
+        "definition": "Typ je",
+        "context": "\"Vacancy Questions\".\"input_placeholder_prefix\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "number",
+        "definition": "Typ je",
+        "context": "\"Vacancy Questions\".\"input_placeholder_prefix\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "dropdown",
+        "definition": "Kies je",
+        "context": "\"Vacancy Questions\".\"input_placeholder_prefix\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "date",
+        "definition": "Typ hier",
+        "context": "\"Vacancy Questions\".\"input_placeholder_prefix\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "google_location",
+        "definition": "Typ je",
+        "context": "\"Vacancy Questions\".\"input_placeholder_prefix\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "birth_date",
+        "definition": "Kies je geboortedatum",
+        "context": "\"Vacancy Questions\".\"input_placeholder_prefix\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "required_error_msg",
+        "definition": "is verplicht",
+        "context": "\"Vacancy Questions\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "location_invalid",
+        "definition": "Plaats is verplicht",
+        "context": "\"Vacancy Questions\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "location_field_invalid",
+        "definition": "Plaats is verplicht",
+        "context": "\"Vacancy Questions\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "location_placeholder",
+        "definition": "zoeken naar",
+        "context": "\"Vacancy Questions\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "close_btn",
+        "definition": "sluit",
+        "context": "\"Vacancy Questions\".\"under_age\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "invalid_phone",
+        "definition": "Telefoonnummer ongeldig",
+        "context": "\"Vacancy Questions\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "start_btn",
+        "definition": "Start",
+        "context": "\"Personality Test\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "next_btn",
+        "definition": "Next",
+        "context": "\"Personality Test\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "back_btn",
+        "definition": "Terug",
+        "context": "\"Personality Test\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "submit_btn",
+        "definition": "Verstuur",
+        "context": "\"Personality Test\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "strongly_disagree",
+        "definition": "Helemaal mee oneens",
+        "context": "\"Personality Test\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "disagree",
+        "definition": "Mee oneens",
+        "context": "\"Personality Test\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "neutral",
+        "definition": "Neutraal",
+        "context": "\"Personality Test\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "agree",
+        "definition": "Mee eens",
+        "context": "\"Personality Test\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "strongly_agree",
+        "definition": "Helemaal mee eens",
+        "context": "\"Personality Test\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "error_message",
+        "definition": "Graag deze vraag beantwoorden",
+        "context": "\"Personality Test\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "answer_validation",
+        "definition": "Vergeet niet alle vragen te beantwoorden voordat je verder gaat.",
+        "context": "\"Personality Test\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "next_btn",
+        "definition": "Next",
+        "context": "\"Video Portfolio\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "more_link_btn",
+        "definition": "Voeg meer video\u2019s toe",
+        "context": "\"Video Portfolio\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "link",
+        "definition": "Link",
+        "context": "\"Video Portfolio\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "add_video_link_title",
+        "definition": "Voeg de links naar je video toe. ",
+        "context": "\"Video Portfolio\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "error_message",
+        "definition": "De link is ongeldig",
+        "context": "\"Video Portfolio\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "comments",
+        "definition": "Comments...",
+        "context": "\"Video Portfolio\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "password",
+        "definition": "Wachtwoord",
+        "context": "\"Video Portfolio\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "start_btn",
+        "definition": "Start",
+        "context": "\"Open Questions\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "next_btn",
+        "definition": "Next",
+        "context": "\"Open Questions\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "next_btn",
+        "definition": "Next",
+        "context": "\"Company Video\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "next_btn",
+        "definition": "Next",
+        "context": "\"Video Interview\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "back_btn",
+        "definition": "Terug",
+        "context": "\"Video Interview\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "start_btn",
+        "definition": "Start",
+        "context": "\"Multitasking\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "yes_btn",
+        "definition": "Ja",
+        "context": "\"Multitasking\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "no_btn",
+        "definition": "Nee",
+        "context": "\"Multitasking\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "partially_btn",
+        "definition": "Gedeeltelijk",
+        "context": "\"Multitasking\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "practice_btn",
+        "definition": "Oefenen",
+        "context": "\"Multitasking\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "next_click_btn",
+        "definition": "Klik op 'volgende' om verder te gaan.",
+        "context": "\"Multitasking\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "next_btn",
+        "definition": "Volgende",
+        "context": "\"Multitasking\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "end_practice",
+        "definition": "Begrepen! Eindig oefengedeelte. ",
+        "context": "\"Multitasking\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "create_with_sketch",
+        "definition": "Created with Sketch.",
+        "context": "\"hexaco\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "artboard_2",
+        "definition": "Artboard 2",
+        "context": "\"hexaco\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "artboard_2_copy_4",
+        "definition": "Artboard 2 Copy 4",
+        "context": "\"hexaco\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "support",
+        "definition": "Support",
+        "context": "\"layout\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "upload_document",
+        "definition": "Please upload your documents once you fill out the forms. Please note: All forms must be completed digitally, minus the signature in the Freelancers Agreement which can be signed digitally or printed and scanned. Please note that signatures are void without the city and date beneath it.  Take into account that for the Freelance Agreement to be valid you need to fill out all the required fields.",
+        "context": "\"contract\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "max_file_size",
+        "definition": "maximum file size is",
+        "context": "\"contract\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "max_number_files",
+        "definition": "maximum number of files is",
+        "context": "\"contract\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "thank_you",
+        "definition": "thank you for uploading the files",
+        "context": "\"contract\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "browse",
+        "definition": "Bladeren",
+        "context": "\"contract\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "submit_btn",
+        "definition": "Verstuur ",
+        "context": "\"contract\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "personality_title",
+        "definition": "Resultaten van de persoonlijkheidstest",
+        "context": "\"results\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "personality_sub_title",
+        "definition": "Je persoonlijkheid wordt gevormd door je genen en alle ervaringen die je hebt opgedaan en bepaalt je gedachten, gevoel en gedrag.",
+        "context": "\"results\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "competenties_title",
+        "definition": "Jouw top competenties en vaardigheden.",
+        "context": "\"results\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "competenties_sub_title",
+        "definition": "Je competenties worden gevormd door kennis, ervaring, vaardigheden en talent en bepalen waar je goed in bent.",
+        "context": "\"results\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "location_invalid",
+        "definition": "Locatie is niet geldig",
+        "context": "\"Personal Info\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "location_field_invalid",
+        "definition": "Locatie is niet geldig",
+        "context": "\"Personal Info\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "location_placeholder",
+        "definition": "zoeken naar ",
+        "context": "\"Personal Info\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "title",
+        "definition": "Heel goed!",
+        "context": "\"alert_messages\".\"brain_game\".\"correctAnswer\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "text",
+        "definition": "Dat is het goede antwoord!",
+        "context": "\"alert_messages\".\"brain_game\".\"correctAnswer\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "title",
+        "definition": "Helaas, dat is niet het goede antwoord. ",
+        "context": "\"alert_messages\".\"brain_game\".\"wrongAnswer\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "text",
+        "definition": "Het antwoord is onjuist. Probeer het opnieuw",
+        "context": "\"alert_messages\".\"brain_game\".\"wrongAnswer\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "title",
+        "definition": "Tijd is om!",
+        "context": "\"alert_messages\".\"brain_game\".\"timeOut\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "text",
+        "definition": "Als je een optie hebt gekozen maar niet binnen de tijd op \u2018volgende\u2019 heb gedrukt, zal de laatst gekozen optie worden beschouwd als je antwoord. ",
+        "context": "\"alert_messages\".\"brain_game\".\"timeOut\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "title",
+        "definition": "Sorry, tijd is om",
+        "context": "\"alert_messages\".\"typing\".\"timeOut\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "text",
+        "definition": "De maximale tijd is verstreken. Klik op 'volgende' om verder te gaan met de volgende stap.",
+        "context": "\"alert_messages\".\"typing\".\"timeOut\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "cancel_btn",
+        "definition": "Annuleren",
+        "context": "\"ziggo\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "upload_video_btn",
+        "definition": "Video uploaden",
+        "context": "\"ziggo\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "recorded",
+        "definition": "Opnemen",
+        "context": "\"ziggo\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "stop_btn",
+        "definition": "Stoppen",
+        "context": "\"ziggo\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "record_btn",
+        "definition": "Opnemen",
+        "context": "\"ziggo\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "skip_btn",
+        "definition": "Overslaan",
+        "context": "\"ziggo\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "link_video_btn",
+        "definition": "Link naar video",
+        "context": "\"ziggo\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "submit_btn",
+        "definition": "Verstuur",
+        "context": "\"ziggo\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "re_record_btn",
+        "definition": "Opnieuw",
+        "context": "\"ziggo\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "record_totip",
+        "definition": "Click here to record. ",
+        "context": "\"ziggo\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "verify",
+        "definition": "Verifi\u00ebren ",
+        "context": "\"ziggo\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "loading",
+        "definition": "Loading... ",
+        "context": "\"ziggo\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "covershot",
+        "definition": "Pick a covershot. ",
+        "context": "\"ziggo\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "uploading",
+        "definition": "uploaden",
+        "context": "\"ziggo\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "upload_btn",
+        "definition": "Uploaden",
+        "context": "\"ziggo\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "yes",
+        "definition": "Ja",
+        "context": "\"cancel_application_modal\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "no",
+        "definition": "Nee",
+        "context": "\"cancel_application_modal\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "my_location",
+        "definition": "Gebruik huidige locatie",
+        "context": "\"Location\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "all_stores",
+        "definition": "Alle locaties geselecteerd",
+        "context": "\"Location\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "store",
+        "definition": "locatie",
+        "context": "\"Location\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "stores",
+        "definition": "locaties",
+        "context": "\"Location\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "found",
+        "definition": "gevonden",
+        "context": "\"Location\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "with",
+        "definition": "met",
+        "context": "\"Location\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "select_store",
+        "definition": "Selecteer alle locaties",
+        "context": "\"Location\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "next",
+        "definition": "Next",
+        "context": "\"Location\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "position",
+        "definition": "POSITION",
+        "context": "\"Location\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "card_store_selected",
+        "definition": "Locatie geselecteerd",
+        "context": "\"Location\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "card_select_store",
+        "definition": "Selecteer locatie",
+        "context": "\"Location\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "card_hiring",
+        "definition": "Hiring",
+        "context": "\"Location\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "input_placeholder",
+        "definition": "Straat, postcode, adres...",
+        "context": "\"Location\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "search_no_results",
+        "definition": "Je zoekopdracht heeft niets opgeleverd. Probeer opnieuw.",
+        "context": "\"Location\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "desktop_placeholder",
+        "definition": "Typ een adres, postcode, stad of selecteer je huidige locatie in de zoekmachine om alle locaties te zien!",
+        "context": "\"Location\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "lightbox_text",
+        "definition": "Je hebt maar 1 locatie geselecteerd. Vergroot je kans op een match door meerdere locaties te selecteren!",
+        "context": "\"Location\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "lightbox_skip_btn",
+        "definition": "Overslaan",
+        "context": "\"Location\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "lightbox_select_more_locations_btn",
+        "definition": "Selecteer meer locaties",
+        "context": "\"Location\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "start_btn",
+        "definition": "Start",
+        "context": "\"Simplified SJT\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "back_btn",
+        "definition": "Terug",
+        "context": "\"Simplified SJT\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "next_btn",
+        "definition": "Next",
+        "context": "\"Simplified SJT\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "back_to_previous_question",
+        "definition": "Back to previous question",
+        "context": "\"Simplified SJT\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "select_answer",
+        "definition": "Select what you think is the right answer",
+        "context": "\"Simplified SJT\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "hours",
+        "definition": "uur",
+        "context": "\"Work Availability\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "skip_btn",
+        "definition": "Ik weet het nog niet",
+        "context": "\"Work Availability\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "next_btn",
+        "definition": "Next",
+        "context": "\"Work Availability\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "minimalCriteriaMessageInnerHtml",
+        "definition": "<span class='bold'>$n stores require you to increase your availability.<\/span><br><br>One or more of your preferred stores will not be included in your application, because these stores require a minimum amount of hours to be selected.<br><br> Please increase the the amount of hours in order to apply for these stores.",
+        "context": "\"Work Availability\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "minimalCriteriaStopperMsgInnerHtml",
+        "definition": "Oops! It seems that the amount of hours you've selected don\u2019t match with the minimal criteria of any of your preferred stores.<br><br>Increase the amount of hours to be able to apply for one or more of your preferred stores.",
+        "context": "\"Work Availability\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "errorMsg1",
+        "definition": "It seems that the amount of hours you've selected don\u2019t match with the minimal criteria of any of your preferred stores.",
+        "context": "\"Work Availability\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "errorMsg2",
+        "definition": "Increase the amount of hours to be able to apply for one or more of your preferred stores.",
+        "context": "\"Work Availability\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "sunday",
+        "definition": "Zondag",
+        "context": "\"Work Availability\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "monday",
+        "definition": "Maandag",
+        "context": "\"Work Availability\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "tuesday",
+        "definition": "Dinsdag",
+        "context": "\"Work Availability\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "wednesday",
+        "definition": "Woensdag",
+        "context": "\"Work Availability\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "thursday",
+        "definition": "Donderdag",
+        "context": "\"Work Availability\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "friday",
+        "definition": "Vrijdag",
+        "context": "\"Work Availability\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "saturday",
+        "definition": "Zaterdag",
+        "context": "\"Work Availability\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "morning",
+        "definition": "Ochtend",
+        "context": "\"Work Availability\".\"time\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "afternoon",
+        "definition": "Middag",
+        "context": "\"Work Availability\".\"time\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "evening",
+        "definition": "Avond",
+        "context": "\"Work Availability\".\"time\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "night",
+        "definition": "Nacht",
+        "context": "\"Work Availability\".\"time\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "start_btn",
+        "definition": "Start",
+        "context": "\"Walk In Dates\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "back_btn",
+        "definition": "Back",
+        "context": "\"Walk In Dates\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "next_btn",
+        "definition": "Next",
+        "context": "\"Walk In Dates\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "interview",
+        "definition": "Deze winkels defini\u00ebren de interviewdagen nog niet. Neem je telefoon bij de hand, je krijgt een telefoontje om het interview in te plannen",
+        "context": "\"Walk In Dates\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "store",
+        "definition": "WINKEL:",
+        "context": "\"Walk In Dates\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "stores",
+        "definition": "WINKEL(S):",
+        "context": "\"Walk In Dates\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "walk_in_dates",
+        "definition": "INLOOPDATA:",
+        "context": "\"Walk In Dates\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "interview_title",
+        "definition": "Kennismakingsgesprek:",
+        "context": "\"Walk In Dates\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "from",
+        "definition": "from",
+        "context": "\"Walk In Dates\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "to",
+        "definition": "to",
+        "context": "\"Walk In Dates\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "days",
+        "definition": "Zondag\nMaandag\nDinsdag\nWoensdag\nDonderdag\nVrijdag\nZaterdag",
+        "context": "\"Walk In Dates\".list",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "your_data",
+        "definition": "Jouw gegevens",
+        "context": "\"Summary\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "name_surname",
+        "definition": "Voor- en achternaam",
+        "context": "\"Summary\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "birthdate",
+        "definition": "Geboortedatum",
+        "context": "\"Summary\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "phone",
+        "definition": "Telefoonnummer",
+        "context": "\"Summary\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "email",
+        "definition": "Email",
+        "context": "\"Summary\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "stores_selected",
+        "definition": "Jouw geselecteerde locatie(s)",
+        "context": "\"Summary\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "search_area",
+        "definition": "Zoekgebied",
+        "context": "\"Summary\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "see_other_stores",
+        "definition": "Toon meer",
+        "context": "\"Summary\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "collapse",
+        "definition": "Toon minder",
+        "context": "\"Summary\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "roles_selected",
+        "definition": "Jouw voorkeur(en)",
+        "context": "\"Summary\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "interview_info",
+        "definition": "Kennismaking",
+        "context": "\"Summary\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "submit_btn",
+        "definition": "Aanvraag indienen",
+        "context": "\"Summary\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "workAvailabilitySectionTitle",
+        "definition": "Jouw beschikbaarheid",
+        "context": "\"Summary\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "alwaysAvailable",
+        "definition": "Hele dag",
+        "context": "\"Summary\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "hoursPerWeek",
+        "definition": "uur per week",
+        "context": "\"Summary\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "skip_btn",
+        "definition": "Overslaan",
+        "context": "\"Virtual Interview\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "next_btn",
+        "definition": "Volgende",
+        "context": "\"Virtual Interview\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "back_btn",
+        "definition": "Vorige",
+        "context": "\"Virtual Interview\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "submit_btn",
+        "definition": "Verstuur",
+        "context": "\"Virtual Interview\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "rerecord_btn",
+        "definition": "Opnieuw opnemen",
+        "context": "\"Virtual Interview\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "reupload_btn",
+        "definition": "Opnieuw uploaden",
+        "context": "\"Virtual Interview\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "continue_btn",
+        "definition": "Verder",
+        "context": "\"Virtual Interview\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "upload_file_btn",
+        "definition": "Upload bestand",
+        "context": "\"Virtual Interview\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "link_button",
+        "definition": "Link naar video",
+        "context": "\"Virtual Interview\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "upload_button",
+        "definition": "Upload video",
+        "context": "\"Virtual Interview\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "record_button",
+        "definition": "Neem video op",
+        "context": "\"Virtual Interview\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "duration_limit_text",
+        "definition": "Let er op dat je video binnen de tijdslimiet blijft van",
+        "context": "\"Virtual Interview\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "duration_cutting_text",
+        "definition": "Wanneer je een video verstuurd die langer is dan deze tijdslimiet zal alleen het deel binnen deze limiet ge\u00ebvalueerd worden.",
+        "context": "\"Virtual Interview\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "link_warning_text",
+        "definition": "Verstuur de link wanneer je er tevreden over bent.",
+        "context": "\"Virtual Interview\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "link_error_text",
+        "definition": "Url is niet geldig",
+        "context": "\"Virtual Interview\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "another_method_text",
+        "definition": "Wanneer je een ander methode wilt gebruiken om een video reactie te geven, ga dan terug naar de vorige pagina.",
+        "context": "\"Virtual Interview\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "check_before_submitting_text",
+        "definition": "Check je video voordat je hem definitief verstuurd.",
+        "context": "\"Virtual Interview\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "upload_warning_text",
+        "definition": "Verstuur de video wanneer je er tevreden over bent. Wanneer je er niet tevreden over bent, ga dan terug en upload een nieuwe video.",
+        "context": "\"Virtual Interview\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "skip_text",
+        "definition": "Wanneer je helemaal geen video reactie wilt geven, kan je er ook voor kiezen om deze stap in zijn geheel over te slaan.",
+        "context": "\"Virtual Interview\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "happy_with_recording_text",
+        "definition": "Verstuur de video wanneer je er tevreden over bent",
+        "context": "\"Virtual Interview\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "rerecord_allowed_text",
+        "definition": "Wanneer je er niet tevreden over bent, ga dan terug en neem een nieuwe video op.",
+        "context": "\"Virtual Interview\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "link_title",
+        "definition": "Link naar video",
+        "context": "\"Virtual Interview\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "upload_title",
+        "definition": "Upload video",
+        "context": "\"Virtual Interview\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "uploaded_title",
+        "definition": "Je video upload",
+        "context": "\"Virtual Interview\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "record_title",
+        "definition": "Video Opname",
+        "context": "\"Virtual Interview\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "recorded_title",
+        "definition": "Jouw Video Opname",
+        "context": "\"Virtual Interview\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "end_page_title",
+        "definition": "Video verstuurd!",
+        "context": "\"Virtual Interview\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "end_page_body",
+        "definition": "Bedankt voor je video reactie.",
+        "context": "\"Virtual Interview\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "search_no_results",
+        "definition": null,
+        "context": "\"Summary\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    },
+    {
+        "term": "desktop_placeholder",
+        "definition": null,
+        "context": "\"Summary\"",
+        "term_plural": "",
+        "reference": "",
+        "comment": ""
+    }
+]
