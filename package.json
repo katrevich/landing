@@ -1,26 +1,549 @@
 {
-  "name": "fastshell",
-  "title": "Fiercely quick and opinionated front-ends",
-  "author": "Hossein Karami",
-  "url": "https://HosseinKarami.github.io/fastshell",
-  "version": "1.0.5",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "http://github.com/HosseinKarami/fastshell.git"
-  },
-  "devDependencies": {
-    "browser-sync": "^2.11.1",
-    "gulp": "^3.9.0",
-    "gulp-autoprefixer": "^3.1.0",
-    "gulp-cssnano": "^2.1.0",
-    "gulp-header": "^1.7.1",
-    "gulp-jshint": "^2.0.0",
-    "gulp-rename": "^1.2.2",
-    "gulp-sass": "^2.1.1",
-    "gulp-sourcemaps": "^1.6.0",
-    "gulp-uglify": "^1.5.1",
-    "gulp-util": "^3.0.8",
-    "jshint": "^2.8.0"
-  }
+    "time": {
+        "minute": "minute",
+        "minutes": "minutes",
+        "second": "second",
+        "seconds": "seconds"
+    },
+    "Landing": {
+        "start_btn": "Start",
+        "next_btn": "Next",
+        "back_btn": "Back",
+        "register_btn": "Register",
+        "info": "Info",
+        "continue_btn": "Continue",
+        "apply_btn": "Apply Now",
+        "logout_btn": "Log out",
+        "login_btn": "log In"
+    },
+    "Login": {
+        "back_btn": "Back",
+        "start_btn": "Start",
+        "sign_in": "Sign in",
+        "error_message_general": "This is required.",
+        "error_message_email_is_required": "Email is required",
+        "error_message_try_different": "Please try different email address.",
+        "error_message_email_is_invalid": "Email format is invalid",
+        "error_message": "Email or Password is invalid",
+        "error_message_password_policy": "Password policy requires min 8 characters, Uppercase & Lowercase letters.",
+        "password_title": "Password",
+        "forgot_password_title": "Forgot Password",
+        "forget_password_success": "Enter the email you signed up with and receive a password reset link",
+        "forget_passowrd_outofdata": "Your reset password request is out of the date. Please try again later.",
+        "forget_passowrd_error": "Something went wrong...please try again later.",
+        "error_message_password_policy_with_regex": [
+            "Password policy requires min",
+            " characters, Uppercase & Lowercase letters."
+        ],
+        "error_message_mandatory_url_parameters": "You started the application with an invalid link. Please contact Support",
+        "welcome_back_title": "Welcome back",
+        "welcome_back_btn": "Continue",
+        "register": "Register",
+        "terms_and_condition": "I hereby consent that {accountName} may process my personal data, including the results of the various test modules, in the context of my application at {accountName} via the Harver Platform. See our privacy policy for more information.",
+        "password_dont_match": "These passwords don't match. Try again.",
+        "confirm_new_password": "Confirm New Password",
+        "require_password": "Password is required",
+        "reset_password": "Reset Password",
+        "reset_password_open_email": "Email has been sent. Open the email for further instructions.",
+        "redirect": "Redirecting in",
+        "seconds_timer": "seconds ...",
+        "new_password": "New password",
+        "email": "Email",
+        "magic_email": "Type your email",
+        "privacyPolicy": "Privacy Policy",
+        "seePrivacyPolicy": "See privacy policy",
+        "locked": "Your account is locked for 10 minutes",
+        "access_to_vacancy_forbidden": "Unfortunately you cannot access this vacancy anymore.",
+        "optional": "optional",
+        "magic_link_message": {
+            "title": "Check your email to login!",
+            "content": "We sent an email to you at [$candidate_email] with a magic link to login."
+        },
+        "desktop_welcome_again": "<p> Welcome again! </p><p> Click Start to continue your journey </p>"
+    },
+    "Video Pitch": {
+        "record_btn": "Record",
+        "skip_btn": "Skip",
+        "link_video_btn": "Link to video",
+        "dont_submit": "Don't submit, I have changed my mind.",
+        "thank_you": "Thank you for submitting your Video",
+        "video_pitch_submitted": "VideoPitch Submitted",
+        "your_video_pitch": "Your VideoPitch",
+        "already_upload_video": "if you've already record a video pitch and uploaded it to the web or a video service, please provide the URL",
+        "example": "For example:",
+        "submit_btn": "Submit",
+        "re_record_btn": "Record again",
+        "submit_if_happy": "Submit if you're happy with the results.",
+        "weblink_to_videoPitch": "Weblink to VideoPitch",
+        "weblink_required": "Weblink is required",
+        "url_invalid": "Url is invalid",
+        "next_btn": "Next",
+        "cancel_btn": "Cancel",
+        "upload_video_btn": "Upload Video",
+        "recorded": "Record",
+        "stop_btn": "Stop"
+    },
+    "Candidate Info Additional": {
+        "close_btn": "Close",
+        "next_btn": "Next",
+        "back_btn": "Back",
+        "choose_option": "Choose...",
+        "please_complete_this_field": "Please complete this field.",
+        "yes_btn": "Yes",
+        "no_btn": "No"
+    },
+    "Location Questions": {
+        "close_btn": "Close",
+        "next_btn": "Next",
+        "back_btn": "Back",
+        "choose_option": "Choose...",
+        "please_complete_this_field": "Don't forget to answer this question!",
+        "yes_btn": "Yes",
+        "no_btn": "No",
+        "input_placeholder_prefix": {
+            "text": "Type your",
+            "number": "Type your",
+            "dropdown": "Choose your"
+        },
+        "required_error_msg": "is required"
+    },
+    "Job Functions": {
+        "close_btn": "Close",
+        "next_btn": "Next",
+        "back_btn": "Back",
+        "choose_option": "Choose...",
+        "required_error_msg": "is required",
+        "jobs_select_msg": "SELECT ALL",
+        "all_selected": "ALL SELECTED",
+        "job_dialog_desc": "DESCRIPTION:",
+        "select_this_job_function": "SELECT",
+        "deselect_this_job_functions": "DESELECT"
+    },
+    "Cultural Fit": {
+        "start_btn": "Start",
+        "next_btn": "Next",
+        "back_btn": "Back",
+        "previous_btn": "Previous",
+        "submit_btn": "Submit",
+        "create_with_Sketch": "Created with Sketch.",
+        "module_description": "Please divide the 10 stars between the 4 listed statements below by how much you value each within an organization.",
+        "strongly_disagree": "strongly disagree",
+        "strongly_agree": "strongly agree",
+        "end_text": "That’s it! Click on ‘submit’ to complete the test. If you want to review your answers, click on 'back'.",
+        "stars_text": "{number} stars left to use",
+        "star_text": "1 star left to use",
+        "zero_star": "No stars left"
+    },
+    "Candidate Info Document": {
+        "browse_btn": "Browse",
+        "choose_file": "Choose file...",
+        "complete_field_needed": "Please complete this field.",
+        "next_btn": "Next"
+    },
+    "End Page": {
+        "results_btn": "View Results",
+        "results_title": "My Results",
+        "extra_btn": "",
+        "competences_btn": "Competencies",
+        "personality_btn": "Personality",
+        "strongShowStopperTitle": "Unfortunately,",
+        "strongShowStopperMessage": [
+            "You do not meet the requirements for this vacancy. Therefore your application stops here. We wish you all the luck with future applications!",
+            "Your answers to the following question(s) did not meet the requirements."
+        ],
+        "cancelApplication_btn": "Cancel Application",
+        "submitApplication_btn": "Submit"
+    },
+    "Retail End Page": {
+        "share_btn": "SHARE THIS VACANCY",
+        "copy_link_btn": "COPY VACANCY LINK",
+        "view_summary": "View summary",
+        "clipboard_copied_msg": "Copied to clipboard",
+        "contact_within": "We will contact you within ${hoursCountDown} hours.",
+        "cancelApplication_btn": "Cancel Application",
+        "submitApplication_btn": "Submit"
+    },
+    "SJT": {
+        "start_btn": "Start",
+        "next_btn": "Next",
+        "back_btn": "Back",
+        "replay_btn": " Replay",
+        "information": "Information",
+        "browser_not_support": "Your browser does not support the video tag.",
+        "select_suitable_answer": "select the most suitable answer",
+        "least_suitable_answer": "and the least suitable answer"
+    },
+    "Typing": {
+        "start_btn": "Start",
+        "next_btn": "Next",
+        "ok_btn": "ok",
+        "time_out_title": "Sorry, out of time.",
+        "time_out_text": "The maximum time has been exceeded. Click 'next' to go to the next step."
+    },
+    "Language Test": {
+        "start_btn": "Start",
+        "next_btn": "Next"
+    },
+    "Brain Game": {
+        "start_btn": "Start",
+        "ok_btn": "Ok",
+        "end_btn": "End",
+        "next_btn": "Next",
+        "yes_btn": "Yes",
+        "no_btn": "No_btn",
+        "correctAnswer": {
+            "title": "Very good!",
+            "text": "That is the correct answer"
+        },
+        "wrongAnswer": {
+            "title": "Sorry, wrong answer!",
+            "text": "The answer is incorrect, please try again."
+        },
+        "timeOut": {
+            "title": "Time's up!",
+            "text": "If you have chosen an option but didn't click on 'next' in time, the chosen option will be regarded as your definitive choice"
+        }
+    },
+    "System Diagnostics": {
+        "next_btn": "Next",
+        "download_app_btn": "Download System Checker",
+        "copy_code_btn_txt": "Copy Code",
+        "copied_code_btn_txt": "Copied",
+        "continue_check_later_btn": "Continue later",
+        "skip_check_btn": "Skip the system check",
+        "skip_check_popup_content": {
+            "skip_check_title": "Skip this module",
+            "skip_check_description": "Are you sure you want to skip the System Check?",
+            "skip_check_skip_btn": "Yes, skip this module",
+            "skip_check_cancel_btn": "Cancel"
+        },
+        "start_page": {
+            "see_more_txt": "See the list of all computer components and requirements that will be checked",
+            "see_less_txt": "Close the list",
+            "table_header_component": "Component",
+            "table_header_requirements": "Requirements",
+            "incompatible_warning_text": "Your operating system is not compatible with this module!",
+            "incompatible_msg": "Do you have a \"work from home\" computer with Windows 7, 8 or 10? You can also decide to skip this step entirely.",
+            "confirmation_message": "Are you on the home computer that you want to use as a \"work from home\" computer right now?",
+            "yes_btn": "Yes, I am",
+            "continue_later_btn_custom_text": "No, I am not. Let's continue later",
+            "skip_btn_custom": "No, I am not. Let's skip the check",
+            "continue_later_btn_custom_text_incompatible": "Yes I do! I will continue with the check later on",
+            "skip_btn_custom_incompatible": "No I don't. I will have to skip the test",
+            "popup_content": {
+                "continue_later_dialogue_title": "Continue later",
+                "continue_later_dialogue_description_1": "You are about to log out of this assessment. Don't worry! You will be able to continue at a later time.",
+                "continue_later_dialogue_description_2": "Once you are ready for the check with your \"work from home\" computer, you can log back in using the registration e-mail we sent you earlier.",
+                "continue_later_dialogue_logout_btn": "Ok, log out",
+                "continue_later_dialogue_cancel_btn": "Cancel"
+            }
+        },
+        "instruction_page": {
+            "title": "System Check - Instructions & Download",
+            "subtitle_1": "5 easy steps to see if your computer meets the vacancy criteria",
+            "subtitle_2": "Use this code to login to the System Checker application",
+            "instructions_list": [
+                "Download the System Checker",
+                "Open the System Checker",
+                "Enter the code generated for you",
+                "Run the test",
+                "Close the System Checker and continue with the assessment"
+            ],
+            "paragraph_1": "After you open & run the System Checker, it will ask for a code. The code below is your personal code. Go ahead and press the copy code button or write the code down before continuing.",
+            "paragraph_2": "Download the System Checker application below. If you want to continue the system check from another computer or at a later time you can decide to continue later. You can also choose to skip the system check entirely."
+        },
+        "download_page": {
+            "title": "System Check - Run System Checker",
+            "subtitle_1": "Were you able to run the System Checker application?",
+            "subtitle_2": "Friendly reminder: use this code to login to the System Checker application",
+            "subtitle_3": "Having trouble with downloading or running the System Checker?",
+            "subtitle_4": "Did System Checker complete successfully?",
+            "paragraph_1": "If you haven't already, go ahead and open & run the System Checker. Once the System Checker has collected all the information from your computer, you can close it and return to this page.",
+            "paragraph_2": "After you open & run the System Checker, it will ask for a code. The code below is your personal code. Go ahead and press the copy code button or write the code down before continuing.",
+            "paragraph_3": "If you are having trouble to download or run the System Checker, please click on the link below to try again. For more information about where you can find the application after downloading it, click the link below.",
+            "paragraph_4": "The System Checker completed successfully. You can now click next.",
+            "download_app_again_btn": "Download System Checker again",
+            "where_is_my_download_btn": "Where can I find the download?",
+            "check_diagnostics_data_btn": "Check if System Checker ran successfully",
+            "popup_content": {
+                "close_btn": "Close",
+                "check_for_successful_run": "Check if System Checker run successfully",
+                "system_check_dialogue_title": "System Check - Did it run successfully?",
+                "system_check_dialogue_description": "Whoops! We did not receive the information from the system checker application. Can you Run it again?",
+                "system_check_dialogue_restart_btn": "Go back to run System Checker again",
+                "system_check_dialogue_continue_link": "Continue later",
+                "system_check_dialogue_skip_link": "Skip the System Check"
+            }
+        },
+        "end_page": {
+            "title": "System Check - Complete",
+            "subtitle": "System Checker was able to gather your computer's information successfully!",
+            "paragraph": "Press next to continue"
+        }
+    },
+    "Candidate Info Personal": {
+        "start_btn": "Start",
+        "next_btn": "Next",
+        "please_complete_this_field": "Please complete this field.",
+        "choose_option": "Choose..."
+    },
+    "Vacancy Questions": {
+        "start_btn": "Start",
+        "next_btn": "Next",
+        "please_complete_this_field": "Please complete this field.",
+        "choose_option": "Choose...",
+        "date-input-labels": {
+            "day": "Day",
+            "month": "Month",
+            "year": "Year"
+        },
+        "input_placeholder_prefix": {
+            "text": "Type your",
+            "number": "Type your",
+            "dropdown": "Choose your",
+            "date": "Type here",
+            "google_location": "Type your",
+            "birth_date": "Choose your birth date"
+        },
+        "required_error_msg": "is required",
+        "location_invalid": "Location is invalid",
+        "location_field_invalid": "Location is invalid",
+        "location_placeholder": "search for ",
+        "under_age": {
+            "close_btn": "close"
+        },
+        "invalid_phone": "Invalid phone number"
+    },
+    "Personality Test": {
+        "start_btn": "Start",
+        "next_btn": "Next",
+        "back_btn": "Back",
+        "submit_btn": "Submit",
+        "strongly_disagree": "Strongly Disagree",
+        "disagree": "Disagree",
+        "neutral": "Neutral",
+        "agree": "Agree",
+        "strongly_agree": "Strongly Agree",
+        "error_message": "Please answer the question",
+        "answer_validation": "Please answer all questions before you proceed."
+    },
+    "Video Portfolio": {
+        "next_btn": "Next",
+        "more_link_btn": "Add more...",
+        "link": "Link",
+        "add_video_link_title": "Add your video links",
+        "error_message": "The link is invalid",
+        "comments": "Comments...",
+        "password": "Password"
+    },
+    "Open Questions": {
+        "start_btn": "Start",
+        "next_btn": "Next"
+    },
+    "Company Video": {
+        "next_btn": "Next"
+    },
+    "Video Interview": {
+        "next_btn": "Next",
+        "back_btn": "Go Back"
+    },
+    "Multitasking": {
+        "start_btn": "Start",
+        "yes_btn": "Yes",
+        "no_btn": "No",
+        "partially_btn": "Partially",
+        "practice_btn": "Practice",
+        "next_click_btn": "Click 'next' to continue.",
+        "next_btn": "Next",
+        "end_practice": "Got It! End Practice"
+    },
+    "hexaco": {
+        "create_with_sketch": "Created with Sketch.",
+        "artboard_2": "Artboard 2",
+        "artboard_2_copy_4": "Artboard 2 Copy 4"
+    },
+    "layout": {
+        "support": "Support"
+    },
+    "contract": {
+        "upload_document": "Please upload your documents once you fill out the forms. Please note: All forms must be completed digitally, minus the signature in the Freelancers Agreement which can be signed digitally or printed and scanned. Please note that signatures are void without the city and date beneath it.  Take into account that for the Freelance Agreement to be valid you need to fill out all the required fields.",
+        "max_file_size": "maximum file size is",
+        "max_number_files": "maximum number of files is",
+        "thank_you": "thank you for uploading the files",
+        "browse": "Browse files",
+        "submit_btn": "Submit"
+    },
+    "results": {
+        "personality_title": "Your Personality Results",
+        "personality_sub_title": "Your personality is defined by your genes and all experiences you’ve had. It determines your thoughts, feelings and behaviour.",
+        "competenties_title": "Your Top Competencies and Skills",
+        "competenties_sub_title": "Your competencies are defined by knowledge, experience, skills and talent and determine what you’re good at."
+    },
+    "Personal Info": {
+        "location_invalid": "Location is invalid",
+        "location_field_invalid": "Location is invalid",
+        "location_placeholder": "search for "
+    },
+    "alert_messages": {
+        "brain_game": {
+            "correctAnswer": {
+                "title": "Very good!",
+                "text": "That is the correct answer"
+            },
+            "wrongAnswer": {
+                "title": "Sorry, wrong answer!",
+                "text": "The answer is incorrect, please try again."
+            },
+            "timeOut": {
+                "title": "Time's up!",
+                "text": "If you have chosen an option but didn't click on 'next' in time, the chosen option will be regarded as your definitive choice"
+            }
+        },
+        "typing": {
+            "timeOut": {
+                "title": "Sorry, out of time",
+                "text": "The maximum time has been exceeded. Click 'next' to go to the next step."
+            }
+        }
+    },
+    "ziggo": {
+        "cancel_btn": "Cancel",
+        "upload_video_btn": "Upload Video",
+        "recorded": "Record",
+        "stop_btn": "Stop",
+        "record_btn": "Record",
+        "skip_btn": "Skip",
+        "link_video_btn": "Link to video",
+        "submit_btn": "Submit",
+        "re_record_btn": "redo",
+        "record_totip": "Click here to record.",
+        "verify": "Verifying",
+        "loading": "Loading...",
+        "covershot": "Pick a covershot.",
+        "uploading": "Uploading",
+        "upload_btn": "Upload"
+    },
+    "cancel_application_modal": {
+        "yes": "Yes",
+        "no": "No"
+    },
+    "Location": {
+        "my_location": "Use current location",
+        "all_stores": "All locations selected",
+        "store": "location",
+        "stores": "locations",
+        "found": "found",
+        "with": "with",
+        "select_store": "Select all locations",
+        "next": "Next",
+        "position": "POSITION",
+        "card_store_selected": "Location selected",
+        "card_select_store": "Select location",
+        "card_hiring": "Hiring",
+        "input_placeholder": "Street, City, Zip code...",
+        "search_no_results": "Your search didn't return any results. Please try again.",
+        "desktop_placeholder": "Enter an address, city or zip code or select your current location in the search bar.",
+        "lightbox_text": "Please note: Your chances of being hired increase if you apply to more locations!",
+        "lightbox_skip_btn": "skip",
+        "lightbox_select_more_locations_btn": "Select more locations"
+    },
+    "Simplified SJT": {
+        "start_btn": "Start",
+        "back_btn": "Back",
+        "next_btn": "Next",
+        "back_to_previous_question": "Back to previous question",
+        "select_answer": "Select what you think is the right answer"
+    },
+    "Work Availability": {
+        "hours": "hours",
+        "skip_btn": "I don't know yet",
+        "next_btn": "Next",
+        "minimalCriteriaMessageInnerHtml": "<span class='bold'>$n stores require you to increase your availability.</span><br><br>One or more of your preferred stores will not be included in your application, because these stores require a minimum amount of hours to be selected.<br><br> Please increase the the amount of hours in order to apply for these stores.",
+        "minimalCriteriaStopperMsgInnerHtml": "Oops! It seems that the amount of hours you've selected don’t match with the minimal criteria of any of your preferred stores.<br><br>Increase the amount of hours to be able to apply for one or more of your preferred stores.",
+        "errorMsg1": "It seems that the amount of hours you've selected don’t match with the minimal criteria of any of your preferred stores.",
+        "errorMsg2": "Increase the amount of hours to be able to apply for one or more of your preferred stores.",
+        "sunday": "Sunday",
+        "monday": "Monday",
+        "tuesday": "Tuesday",
+        "wednesday": "Wednesday",
+        "thursday": "Thursday",
+        "friday": "Friday",
+        "saturday": "Saturday",
+        "time": {
+            "morning": "Morning",
+            "afternoon": "Afternoon",
+            "evening": "Evening",
+            "night": "Night"
+        }
+    },
+    "Walk In Dates": {
+        "start_btn": "Start",
+        "back_btn": "Back",
+        "next_btn": "Next",
+        "interview": "These stores don’t defined yet the interview days. Take your phone at hand, you’ll receive a call to schedule the interview",
+        "store": "Location:",
+        "stores": "Locations:",
+        "walk_in_dates": "WALK-IN DATES:",
+        "interview_title": "INTERVIEW:",
+        "from": "from",
+        "to": "to",
+        "days": [
+            "Sunday",
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday"
+        ]
+    },
+    "Summary": {
+        "your_data": "Info",
+        "name_surname": "Name and Surname",
+        "birthdate": "Birth date",
+        "phone": "Telephone number",
+        "email": "Email address",
+        "stores_selected": "Selected location(s)",
+        "search_area": "Search Area",
+        "see_other_stores": "Show more",
+        "collapse": "Collapse",
+        "roles_selected": "Preference(s)",
+        "interview_info": "Interview info",
+        "submit_btn": "SUBMIT YOUR APPLICATION",
+        "workAvailabilitySectionTitle": "Availability",
+        "alwaysAvailable": "All day",
+        "hoursPerWeek": "hours per week",
+        "search_no_results": "",
+        "desktop_placeholder": ""
+    },
+    "Virtual Interview": {
+        "skip_btn": "Skip",
+        "next_btn": "Next",
+        "back_btn": "Go back",
+        "submit_btn": "Submit",
+        "rerecord_btn": "Rerecord",
+        "reupload_btn": "Reupload",
+        "continue_btn": "Continue",
+        "upload_file_btn": "Upload file",
+        "link_button": "Link to a video",
+        "upload_button": "Upload a video",
+        "record_button": "Record a video",
+        "duration_limit_text": "Please make sure your video stays within the limit of",
+        "duration_cutting_text": "If you do decide to submit a video that exceeds this limit, only the part of the video that falls within the time limit will be evaluated.",
+        "link_warning_text": "If you are happy with the link you provided go ahead and submit the video.",
+        "link_error_text": "Url is invalid",
+        "another_method_text": "If you want to use another method of submitting a video, go back to the previous page.",
+        "check_before_submitting_text": "Check out your video before submitting.",
+        "upload_warning_text": "If you are happy with your upload, submit the video. If you are not, go ahead and reupload a video.",
+        "skip_text": "If you don't want to submit a video at all, you can skip this step.",
+        "happy_with_recording_text": "If you are happy with your recording, submit the video. ",
+        "rerecord_allowed_text": "If you are not, go ahead and rerecord.",
+        "link_title": "Link to video",
+        "upload_title": "Upload video",
+        "uploaded_title": "Your uploaded video",
+        "record_title": "Video Recording",
+        "recorded_title": "Your Video Recording",
+        "end_page_title": "Video Submitted!",
+        "end_page_body": "Thanks for sharing your video response."
+    }
 }
